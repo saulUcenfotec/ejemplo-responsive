@@ -1,0 +1,23 @@
+.rojo {
+    width: 100%;
+    height: 70px;
+    background-color: red;
+}
+
+.azul {
+    width: 100%;
+    height: 70px;
+    background-color: blue;
+}
+
+.amarillo {
+    width: 100%;
+    height: 70px;
+    background-color: yellow;
+}
+
+.verde {
+    width: 100%;
+    height: 70px;
+    background-color: green;
+}
