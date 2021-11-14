@@ -1,23 +1,111 @@
-.rojo {
-    width: 100%;
-    height: 70px;
-    background-color: red;
+:root {
+    --texto: rgb(9, 35, 83);
+    --boton: rgb(88, 171, 227);
+    --blanco: #fff;
 }
 
-.azul {
-    width: 100%;
-    height: 70px;
-    background-color: blue;
+* {
+    box-sizing: border-box !important;
+    font-family: 'Roboto', sans-serif !important;
+    font-size: 120%;
 }
 
-.amarillo {
-    width: 100%;
-    height: 70px;
-    background-color: yellow;
+.wrapper {
+    display: flex;
+    color: var(--texto);
+    font-size: 130%;
+    padding: 1%;
+    text-align: left;
+    flex-wrap: wrap;
 }
 
-.verde {
-    width: 100%;
-    height: 70px;
-    background-color: green;
+@media all and (min-width:768px) {
+    .wrapper section div {
+        width: 60% !important;
+    }
+    .wrapper section {
+        width: 50%;
+        text-align: left;
+    }
+    .wrapper section p {
+        width: 150%;
+    }
+    .wrapper section h1 {
+        width: 150%;
+    }
+    .titulo {
+        font-size: 300% !important;
+        font-weight: bold;
+        padding: 3% 2% 15%;
+    }
+    .imagen {
+        padding-top: 10%;
+        width: 100%;
+    }
+    button {
+        margin: 5%;
+        padding: 2% 4%;
+        border-radius: 5%;
+        border-style: solid;
+        font-weight: bold;
+        font-size: 70%;
+    }
+    .demo {
+        background-color: var(--boton);
+        color: var(--blanco);
+        border-color: var(--boton);
+    }
+    .iniciar {
+        background-color: var(--blanco);
+        color: var(--botones);
+        border-color: var(--boton);
+    }
+}
+
+@media all and (min-width:0) and (max-width:768px) {
+    .wrapper section {
+        width: 100%;
+    }
+    .wrapper {
+        width: 100%;
+    }
+    .titulo {
+        font-size: 200%;
+        font-weight: bold;
+        padding: 3% 2% 5%;
+        width: 100%;
+    }
+    .imagen {
+        padding-top: 10%;
+        width: 100%;
+    }
+    button {
+        margin: 5%;
+        padding: 2% 4%;
+        border-radius: 2%;
+        border-style: solid;
+        font-weight: bold;
+        font-size: 70%;
+        width: 90%;
+    }
+    br {
+        display: none;
+    }
+}
+
+.demo {
+    background-color: var(--boton);
+    color: var(--blanco);
+    border-color: var(--boton);
+}
+
+.iniciar {
+    background-color: var(--blanco);
+    color: var(--boton);
+    border-color: var(--boton);
+}
+
+.iniciar:hover {
+    background-color: var(--boton);
+    color: var(--blanco)
 }
