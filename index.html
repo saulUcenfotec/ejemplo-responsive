@@ -1,30 +1,125 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
 
 <head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Laboratorio</title>
     <link rel="stylesheet" href="css/reset.css">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Cabin&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="css/index.css">
-
 </head>
 
 <body>
-    <div class="wrapper">
-        <section>
-            <div>
-                <h1 class="titulo">Code Review as a Service</h1>
-                <p>Increase velocity and reduce technical debt through quality code review by expert engineers backed by best-in-class automation.</p>
-            </div>
-        </section>
-        <section>
-            <img class="imagen" src="https://www.pullrequest.com/images/figures/home/hero-graphic.webp">
-        </section>
-        <section>
-            <button class="demo">Schedule<br> demo</button>
-            <button class="iniciar">Sing up</button>
-        </section>
+    <header class="warpper">
+        <nav class="wrapper">
+            <section>
+
+                <a href="">
+                    <h1>BRAND</h1>
+                </a>
+
+            </section>
+            <section class="wrapper">
+
+                <a href="">
+                    <p>MONTE NEVADO</p>
+                </a>
+
+                <a href="">
+                    <p>CONTACTO</p>
+                </a>
+
+                <a href="">
+                    <p>RESERVAR</p>
+                </a>
+
+            </section>
         </nav>
+        <div class="wrapper">
+            <h1>EL MONTE<br> NEVADO</h1>
+            <p>hotel de monta&ntilde;a todo incluido</p>
+            <i class="fas fa-arrow-alt-circle-up"></i>
+        </div>
+    </header>
+
+    <div id="desc" class="wrapper">
+        <section>
+            <h1>MONTE NEVADO</h1>
+        </section>
+        <section>Monte Nevado es un hotel en la cima del <span>Monte Targón</span>, fundado en el año 1680. A lo largo de los años se ha convertido en el sitio predilecto de aquellos que buscan ascender.</section>
+        <section>Denominado como una de <span>Las nuevas maravillas</span> Monte Nevado transmite la sensación de conexión con el universo y con los diferentes <span>aspectos</span>.
+        </section>
+        <section>Esperamos recibirlo pronto, para hacer de su estancia un momento inolvidable
+        </section>
+    </div>
+
+    <div class="descuento">
+        <section>
+            <h1>25% DE DESCUENTO</h1>
+        </section>
+        <section>
+            <p>Puede obtener un 25% de descuento</p>
+        </section>
+        <section><button>HACER RESERVACI&Oacute;N YA</button></section>
+    </div>
+
+    <div class="contacto">
+        <section>
+            <h1>CONTACTO</h1>
+        </section>
+        <section>
+            <p>Nos puede escribir sin ning&uacute;n compromiso por cualquiera de nuestras redes sociales o por nuestro<span> chat en l&iacute;nea</span></p>
+        </section>
+        <section><button><i class="fab fa-google-plus-g"></i> GOOGLE+</button>
+            <button><i class="fab fa-twitter"></i> TWITTER</button>
+            <button>CHAT</button>
+        </section>
+    </div>
+
+    <div class="reserva">
+        <h1>RESERVACIONES</h1>
+
+        <label>Nombre completo</label>
+        <input type="text">
+        <label>Fecha de entrada</label>
+        <input type="date">
+        <label>Fecha de salida</label>
+        <input type="date">
+        <label>Email</label>
+        <input type="email">
+        <label>Tel&eacute;fono</label>
+        <input type="tel">
+
+        <p>Tipo de moneda con la que va a realizar el pago</p>
+        <section>
+            <input type="radio" name="pago">
+            <label>Colones</label>
+        </section>
+
+        <section>
+            <input type="radio" name="pago">
+            <label>D&oacute;lares</label>
+        </section>
+
+        <section>
+            <input type="radio" name="pago">
+            <label>Euros</label>
+        </section>
+        <section class="terminos">
+            <input type="checkbox">
+            <label>Acepto los t&eacute;rminos y condiciones</label>
+        </section>
+        <p class="boton"><button>RESERVAR</button></p>
+    </div>
+
+    <footer>
+        <p>Copyright <i class="fas fa-copyright"></i> Monte Nevado 2020</p>
+    </footer>
+    <script src="https://kit.fontawesome.com/74469343fe.js" crossorigin="anonymous"></script>
 </body>
+
+</html>
